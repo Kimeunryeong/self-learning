@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link href="toDoList.css" rel="stylesheet" />
+</head>
+<body>
+    <!--투두 리스트 만들기 
+        1. 할 일을 텍스트 입력 후 추가버튼 클릭시 목록에 추가하기
+        2. 목록에 체크박스를 이용해 완료/삭제버튼 만들기
+        3. 완료 시 글씨 어두워지면서 중앙선 
+        4. 삭제 버튼 클릭시 목록 제거
+        5. 더 나아가 진행중/완료/미완료 카테고리 만들어서 클릭시 해당 내용만 보이게 하기-->
+    <h1>TO DO LIST</h1>
+    
+    <form id="toDoList">
+        <input type="text" placeholder="오늘의 할 일을 적어주세요."/>
+        <!-- 내용 작성을 위한 input태그 -->
+        <button id="addButton">+</button>
+        <!-- 내용 작성 추가를 위한 버튼 태그 -->
+    </form>
+    
+    <ul id="addList"></ul>
+
+    <script src="todolist.js"></script>
+</body>
+</html>
